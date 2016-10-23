@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mixer vol 88:88

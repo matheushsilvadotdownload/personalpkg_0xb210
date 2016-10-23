@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sysctl hw.acpi.video.lcd0.brightness=31

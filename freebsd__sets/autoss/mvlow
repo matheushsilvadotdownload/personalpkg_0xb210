@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mixer vol 65:65 

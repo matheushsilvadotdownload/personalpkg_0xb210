@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+ifconfig wlan0 create wlandev ath0  
+
+nice -13 wpa_supplicant -i wlan0 -c /etc/wpa_supplicant.conf &
+
+dhclient wlan0 
